@@ -1,5 +1,5 @@
 # PyFedora
-Archive Subreddit states. Tip fedora to m'ladies as well. 
+Archives a subreddit to be view-able offline. Will push more when I feel like it.
 
 #Example
 <img src="http://i.imgur.com/QjQtyqT.png">
