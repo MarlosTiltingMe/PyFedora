@@ -5,5 +5,5 @@ Archives a subreddit to be view-able offline. Will push more when I feel like it
 <img src="http://i.imgur.com/QjQtyqT.png">
 
 #Usage  Example
-<img src="http://i.imgur.com/Tkka4pS.png">
+<img src="https://github.com/MarlosTiltingMe/PyFedora/blob/master/CLI.png?raw=true">
 
