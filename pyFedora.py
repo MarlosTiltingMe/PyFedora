@@ -4,13 +4,6 @@ headers = {
     'User-Agent': '/u/YourUsername'
 }
 
-try:
-    os.remove("pyFedora.html")
-except OSError:
-    print('No cleanup.')
-
-file = open("pyFedora.html", "a")
-
 #I refuse to believe Python can be aesthetically pleasing.
 #So I didn't try. This is a project of necessity and boredom.
 
@@ -20,10 +13,14 @@ def setup():
     global user_name
     global sub_reddit
     global url
+    global file
 
+    file_name = raw_input("File name(append .html!)\n")
     user_name  = raw_input("What's your name? \n")
     sub_reddit = raw_input("What Reddit would you like to view?\n")
     url = 'https://reddit.com/r/' + sub_reddit + '/hot.json'
+
+    file = open(file_name, "a")
 
     HEADER = """
         <html>
